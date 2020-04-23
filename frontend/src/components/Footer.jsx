@@ -12,22 +12,22 @@ const Footer = () => {
       <MDBRow>
         <MDBCol md="12" className="py-5">
           <div className="mb-5 flex-center">
-          <FacebookShareButton quote="Can't figure out what to eat? Check out this yummy recipe app." hashtag="#recipebox" url="therecipebox.netlify.com">
+          <FacebookShareButton quote="Can't figure out what to eat? Check out this yummy recipe app." hashtag="#recipebox" url="therecipebox.netlify.app">
               <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
               </i>
             </FacebookShareButton>
 
-            <TwitterShareButton children="therecipebox.netlify.com" url="therecipebox.netlify.com" hashtags={["recipebox"]} title="Yum yum yum this recipe app rocks! www.therecipebox.netlify.com">
+            <TwitterShareButton children="therecipebox.netlify.app" url="therecipebox.netlify.app" hashtags={["recipebox"]} title="Yum yum yum this recipe app rocks! www.therecipebox.netlify.app">
               <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
               </i>
               </TwitterShareButton>
 
-            <LinkedinShareButton url="therecipebox.netlify.com">
+            <LinkedinShareButton url="therecipebox.netlify.app">
               <i className="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
               </i>
               </LinkedinShareButton>
 
-            <TumblrShareButton url="therecipebox.netlify.com" caption="Check out this yummy recipe app!">
+            <TumblrShareButton url="therecipebox.netlify.app" caption="Check out this yummy recipe app!">
               <i className="fab fa-tumblr fa-lg white-text fa-2x"> 
               </i>
             </TumblrShareButton>
