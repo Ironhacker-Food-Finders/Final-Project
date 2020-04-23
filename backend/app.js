@@ -92,7 +92,7 @@ app.use('/api', require('./routes/file-upload-route')); //route to image upload 
 // Uncomment this line for production
 let client = path.join(__dirname + '../public/index.html')
 console.log('client',client)
-//app.get('*', (req, res) => res.sendFile(client));
+app.get('*', (req, res) => res.sendFile(client));
 // For any other routes, redirect to the index.html file of React
 // app.get('*', (req, res) => {
 //   res.sendFile(path.join(__dirname, '../frontend/build/index.html'))
